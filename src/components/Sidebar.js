@@ -8,7 +8,6 @@ const CONVERSATIONS_KEY = 'conversations'
 const CONTACTS_KEY = 'contacts'
 
 export default function Sidebar({ id }) {
-    console.log(id);
   const [activeKey, setActiveKey] = useState(CONVERSATIONS_KEY)
   const [modalOpen, setModalOpen] = useState(false)
   const conversationsOpen = activeKey === CONVERSATIONS_KEY
